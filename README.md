@@ -1,14 +1,16 @@
 # 🎬 Movie Recommender AI
 
-A simple Streamlit app that recommends movies based on natural language input, powered by the Groq API (Llama 3).
+A simple AI-powered Streamlit app that recommends movies based on natural language input, powered by the Groq API.
+
+🔗 **Live demo:** https://movie-recommender-phi3-fxun7hybbxf8p3ovd7bdsw.streamlit.app/
 
 ## How it works
-Type a description like "I want a movie like Inception" and get 3 tailored recommendations with reasons.
+Type a description like "I want a movie like Inception" and get 3 tailored movie recommendations with reasons, generated in real time by an LLM.
 
 ## Tech Stack
 - Python
 - Streamlit
-- Groq API (llama3-8b-8192)
+- Groq API (openai/gpt-oss-20b)
 
 ## Setup
 
